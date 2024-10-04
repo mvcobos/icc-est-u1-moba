@@ -31,4 +31,8 @@ public class MoBurbujaAvanzada {
             System.out.print(elemento + " , ");
         }
     }
+
+    public void validacionIngreso(int [] arreglo){
+        
+    }
 }

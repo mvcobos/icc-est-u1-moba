@@ -20,7 +20,13 @@ public class App {
             }
         }while(tamanio <= 0);
 
-
         int [] arreglo = new int[tamanio];
+        for(int k = 0; k < tamanio; k++ ){
+            System.out.println("Ingrese el valor de la posicion " + (k+1));
+            arreglo[k] = scanner.nextInt();
+        }
+
+        System.out.println(arreglo);
+        
     }
 }
