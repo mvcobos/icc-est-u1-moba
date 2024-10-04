@@ -10,9 +10,12 @@ public class App {
 
         int [] arreglo = new int[tamanio];
         for(int k = 0; k < tamanio; k++ ){
-            System.out.println("Ingrese el valor de la posicion " + (k+1));
             arreglo[k] = leerEnteroValido(scanner, "Ingrese el valor de la posicion", true);
         }
+
+        System.out.println(arreglo);
+        mO.sortBubbleAvanzado(arreglo);
+        mO.printArreglo(arreglo);
     }
 
 
